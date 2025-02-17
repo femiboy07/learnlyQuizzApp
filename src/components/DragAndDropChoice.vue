@@ -157,7 +157,7 @@ const handleCheckDrop = (index:number,event: DragEvent) => {
             :sort="false" 
             item-key="`id`"
             :draggable="false" 
-            :group="{ name: 'dropZone', pull: false, put: true }"
+            :group="{ name: 'dropZone', pull: false, put: element.droppedAnswer.length ? false : true }"
             @change="handleCheckDrop(index, $event)"
             class="drop-area"
             
