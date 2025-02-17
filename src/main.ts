@@ -18,11 +18,10 @@ import { faRefresh } from '@fortawesome/free-solid-svg-icons'
 library.add([faUserSecret,faClose,faCheck,faArrowAltCircleRight,faArrowRight,faArrowsSpin,faRefresh])
 
 import App from './App.vue'
-import router from './router'
+
 
 const app = createApp(App).component('font-awesome-icon', FontAwesomeIcon);
 
 app.use(createPinia())
-app.use(router)
 
 app.mount('#app')
