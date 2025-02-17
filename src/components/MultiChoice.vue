@@ -35,8 +35,7 @@ watch(selectedOption,()=>{
  }
 
  watch(currentIndex, () => {
- 
-  correctAnswer.value = props.questions[currentIndex.value].correctAnswer;
+correctAnswer.value = props.questions[currentIndex.value].correctAnswer;
 });
 
 </script>
