@@ -1,0 +1,109 @@
+{
+    "multiple-choice": [
+        {
+            "id": 1,
+            "question": "What is 2 + 2?",
+            "goalScore": 30,
+            "options": [
+                {
+                    "id": "a",
+                    "text": "3"
+                },
+                {
+                    "id": "b",
+                    "text": "4"
+                },
+                {
+                    "id": "c",
+                    "text": "5"
+                }
+            ],
+            "correctAnswer": "b",
+            "shoutMessageError": "Think again , if 1+1 is 2 then 2 + 2 is what",
+            "shoutMessageSuccess": "Right, 2 + 2 is 4 well done"
+        },
+        {
+            "id": 2,
+            "question": "What is 4 + 4?",
+            "goalScore": 30,
+            "options": [
+                {
+                    "id": "a",
+                    "text": "3"
+                },
+                {
+                    "id": "b",
+                    "text": "4"
+                },
+                {
+                    "id": "c",
+                    "text": "8"
+                }
+            ],
+            "correctAnswer": "c",
+            "shoutMessageError": "Think again , if 2+2 is 4 then 4 + 4 is what",
+            "shoutMessageSuccess": "Right, 4 + 4 is 8 well done"
+        },
+        {
+            "id": 3,
+            "question": "What do plants need for photosynthesis",
+            "goalScore": 30,
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Oxygen & Sugar"
+                },
+                {
+                    "id": "b",
+                    "text": "Protein & Soil"
+                },
+                {
+                    "id": "c",
+                    "text": "Sunlight,Water & Carbon dioxide"
+                }
+            ],
+            "correctAnswer": "c",
+            "shoutMessageError": "Think again , Think about what gives plants energy",
+            "shoutMessageSuccess": "Right, Yes Plants need sunlight,Water & Carbon dioxide"
+        }
+    ],
+    "drag-and-drop": [
+        {
+            "id": 2,
+            "question": "Match the animals with their sounds",
+            "dragQuestion": "Drag the correct animals to match its definition above",
+            "pairs": [
+                {
+                    "id": "1",
+                    "question": "Dog",
+                    "hasDropped": false,
+                    "correct": false,
+                    "displayAnswer": "Bark",
+                    "answer": "Bark",
+                    "droppedAnswer": [],
+                    "draggable": true
+                },
+                {
+                    "id": "2",
+                    "question": "Cat",
+                    "hasDropped": false,
+                    "correct": false,
+                    "displayAnswer": "Meow",
+                    "answer": "Meow",
+                    "droppedAnswer": [],
+                    "draggable": true
+                },
+                {
+                    "id": "3",
+                    "question": "Cow",
+                    "hasDropped": false,
+                    "correct": false,
+                    "displayAnswer": "Moo",
+                    "answer": "Moo",
+                    "droppedAnswer": [],
+                    "draggable": true
+                }
+            ]
+        }
+    ]
+}
